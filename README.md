@@ -33,51 +33,57 @@ The project uses:
 
 # Technologies used
 Tool	  ------          Purpose
+
 Python	 -----     Programming Language
+
 pandas	 -------  Data analysis and manipulation
+
 FPDF     ----------	Lightweight PDF generation
-🚀 How It Works
-Data Input
-Reads data from data/sample_data.csv.
 
-Analysis
-Computes summary statistics using pandas.
-
-Report Generation
-Creates a PDF report with nicely formatted content using FPDF.
 
 # 📥 How to Run
 1. Clone the repository:
 
-git clone https://github.com/yourusername/automated-report-generation.git
-cd automated-report-generation
+    git clone https://github.com/yourusername/automated-report-generation.git
+    cd automated-report-generation
 
 2.Install dependencies:
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 3. Add your .csv data to the data/ folder.
   
 4. Run the script:
 
-python generate_report.py
+    python generate_report.py
 
 5. View the report:
-Open the generated reports/report.pdf
+     Open the generated reports/report.pdf
 
 # ⚙️ How It Works
 
 Step	  -------------------------------------------------- Description
+
 🗂️ 1. Load Data	-----------------------    The script reads input from a CSV file (e.g., data/sample_data.csv).
+
 📊 2. Analyze	--------------------------   It uses pandas to compute summaries like count, mean, std, min, max.
+
 🖨️ 3. Generate Report	-------------------  The analyzed data is formatted and written into a PDF using fpdf.
+
 📁 4. Output	---------------------------- The final PDF report is saved in the reports/ folder.
+
 
 # ✅ Why Use Automated Report Generation?
 Benefit	--------------------------------------------------Description
+
 ⏱️ Saves Time	----------------------------Eliminates repetitive manual analysis and formatting
+
 📑 Consistency----------------------	    Generates standardized reports every time
+
 🔁 Automation	------------------------    Can be integrated with schedulers like cron or CI/CD pipelines
+
 📈 Business --------------------------   Insight	Useful for teams needing regular updates from data sources
+
 🧩 Extensible	--------------------------- Easily modified to include charts, tables, or advanced analysis
+
 
