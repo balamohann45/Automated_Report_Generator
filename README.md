@@ -87,4 +87,8 @@ Benefit	--------------------------------------------------Description
 
 🧩 Extensible	--------------------------- Easily modified to include charts, tables, or advanced analysis
 
+# OUTPUT OF PROJECT
+![Image](https://github.com/user-attachments/assets/21883fe1-d96e-42de-a2a9-1d2c8997941a)
+![Image](https://github.com/user-attachments/assets/929f8ca1-ef22-424e-adfc-e985fd81ae45)
+
 
